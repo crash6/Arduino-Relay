@@ -4,7 +4,7 @@
 This library implements any physical relay plugged to the Arduino board. I modelled it like an object which can be controlled through two main methods :
 
 - **_setState()_**;
-- **_setState(*RelayState state)_**;
+- **_setState(RelayState state)_**;
 
 **_RelayState_** is simply an enum class type which can be :
 
